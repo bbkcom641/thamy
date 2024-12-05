@@ -1,0 +1,342 @@
+﻿/*
+Theme Name: Flatsome Child
+Description: This is a child theme for Flatsome Theme
+Author: UX Themes
+Template: flatsome
+Version: 3.0
+*/
+
+/*************** ADD CUSTOM CSS HERE.   ***************/
+/*** Giao diện popup mới **/
+div#popup-dang-ky-nhan-uu-dai-toan-site-newcode {
+    background-color: transparent;
+    box-shadow: none;
+}
+
+.lightbox-content .popup_content-post {
+    position: absolute;
+    top: 21%;
+    left: 14%;
+    color: #fff;
+    text-align: center;
+}
+
+@media screen and (max-width: 549px) {
+	.lightbox-content .popup_content-post {
+    top: 15%;
+    left: 10%;
+    right: 10%;
+    font-size: 14px;
+}
+}
+
+#popup-dang-ky-nhan-uu-dai .banner,
+#popup-dang-ky-nhan-uu-dai {
+	background-color: transparent;
+	box-shadow: none;
+}
+
+.gr-new-text-purple {
+background: linear-gradient(180deg, #7342ba 0%, #44276d 100%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+font-weight: 800;
+}
+
+@media screen and (min-width:1200px) and (max-width:1500px) {
+	.section-2-collagen-new .text-box-collagen-new img {
+		width:70%!important;
+	}
+	.section-2-collagen-new .colagen-2  {
+		margin: 0px -54px 0px 0px!important;
+	}
+	.section-2-collagen-new .colagen-3  {
+	margin: 0px -70px 0px 0px!important;
+	}
+	.sectin-5-banner-colga .text-btn-col-new {
+		margin: 0px -9px 0px 30px!important;
+	}
+}
+.btn2 {
+	background-image: url(../../uploads/2023/12/phun-xam-tham-my-desktop-5.webp);
+    background-position: center;
+    background-size: initial;
+    color: #422369!important;
+    font-weight: 700;
+}
+.page-id-9233 .text-box .button span {
+    font-size: 1.2rem!important;
+}
+.page-id-9211 .slider-nav-light .flickity-prev-next-button .arrow, .slider-nav-light .flickity-prev-next-button svg {
+	    fill: #422369!important;
+}
+.page-id-9211 .slider-nav-light .flickity-page-dots .dot {
+    border-color: #422369;
+}
+.page-id-9211 .slider-nav-light .flickity-page-dots .dot.is-selected, .slider-nav-light.slider-nav-dots-simple .flickity-page-dots .dot {
+    background-color:#422369;
+}
+.slider-nav-light .flickity-prev-next-button .arrow, .slider-nav-light .flickity-prev-next-button svg {
+	    fill: #fff!important;
+}
+.section-nhat-ky .slider-nav-light .flickity-prev-next-button .arrow, .slider-nav-light .flickity-prev-next-button svg {
+	    fill: #412767!important;
+}
+.section-nhat-ky .slider-nav-light .flickity-prev-next-button:hover .arrow, .slider-nav-light .flickity-prev-next-button svg {
+	    fill: #fff!important;
+}
+
+.slider-nav-light .flickity-prev-next-button {
+    color: #412767!important;
+}
+ /*** Start phun mày new ***/
+/************ Desktop ************/ 
+.section-10-pm-new .img-box-1 .box-text {
+	position: absolute;
+    bottom: 45px;
+}
+.section-10-pm-new .img-box-2 .box-text {
+	position: absolute;
+    bottom: 95px;
+}
+/********* END Desktop **********/
+/************ Mobile ************/
+@media screen and (max-width:549px) {
+.section-7-pm-new .section-bg.bg-loaded {
+    background-image: url(../../uploads/2023/05/phun-may-mobile-14.webp)!important;
+}
+	.section-11-pm-new {
+		margin-bottom:-20px!important;
+	}	
+	.page-id-9211 .slider-nav-light .flickity-prev-next-button .arrow, .slider-nav-light .flickity-prev-next-button svg {
+    fill: #fff!important;
+}
+	
+}
+/*** END  phun mày new**/
+
+
+ /*** Start cấy collagen new ***/
+/************ Desktop ************/
+.section-3-collagen-new .img-box-text {
+	transform: translateX(-120px);
+}
+.section-3-collagen-new .img-box-text-3 {
+	transform: translateX(-80px);
+}
+.section-3-collagen-new .img-box-text-1 {
+	transform: translateX(120px);
+}
+.section-3-collagen-new .img-box-text-2 {
+	transform: translateX(80px);
+}
+.section-9-collagen-new .text-name {
+	font-style: normal;
+	font-weight: 700;
+	font-size: 30px;
+	line-height: 42px;
+}
+.section-9-collagen-new .old-age {
+	font-style: normal;
+	font-weight: 600;
+	font-size: 24px;
+	line-height: 30px;
+}
+/********* END Desktop **********/
+/************ Mobile ************/
+@media screen and (max-width:549px) {	
+.footer-chi-nhanh-new-ver-mb .nav-pills>li>a {
+    padding: 0 1em!important;
+}	
+.section-9-collagen-new .text-name {
+	font-style: normal;
+	font-weight: 700;
+	font-size: 24px!important;
+	line-height: 32px!important;
+}
+	.section-9-collagen-new .img-box-slider .box-text	{
+		position:absolute;
+		bottom:-20px;
+	}
+}
+/********* END Mobile **********/
+/************ Tablet ************/
+@media screen and (min-device-width: 768px) and (max-device-width:1024px) { 
+
+ }
+/********* END Tablet **********/
+/*** END  cấy collagen new**/
+
+
+
+
+ /*** Start trang chủ new ***/
+/************ Desktop ************/
+.section-3-gt-new .image-box-1 .box-text {
+	position: absolute;
+    bottom: -20px;
+    padding: 0 30px;
+}
+.section-3-gt-new .button-white-new {
+	background: #fff!important;
+    color: #422369!important;
+    border: 1px solid #422369;
+}
+.section-3-gt-new .button-white-new:hover {
+	background: #422369!important;
+	color:#fff!important;
+}
+.section-4-gt-new .image-box-2 .box-text {
+	position: absolute;
+    bottom: 35px;
+}  
+.section-4-gt-new .row-col-3-gt-new {
+	margin-top:-140px;
+}
+.section-banner-gt-new .text-box-1 {
+	transform: translateY(-12px);
+}
+
+  
+  /** block video trang chủ **/
+ 
+.section-6-gt-new .block-video .is-divider,
+.section-6-gt-new .block-mobile-video .is-divider {
+    max-width: 90px;
+    margin: 25px auto;
+  }
+.section-6-gt-new .block-mobile-video p {
+    width: 360px;
+    font-size: 16pt;
+    text-align: center;
+    font-weight: bolder;
+    color: #fff;
+  }
+.section-6-gt-new .col-inner .video-fit,
+  .section-6-gt-new iframe,.section-6-gt-new .box-image .image-cover {
+    border-radius: 14px;
+  }
+span.main-text {
+    font-style: normal;
+    font-weight: 900;
+    font-size: 60px;
+    line-height: 82px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+}
+
+span.sub-text {
+    font-style: normal;
+    font-weight: 900;
+    font-size: 37px;
+    line-height: 46px;
+    text-transform: uppercase;
+}
+.tt-text {
+    background: -webkit-linear-gradient(131.24deg, #9F2AF5 0%, #422369 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+/********* END Desktop **********/
+/************ Mobile ************/
+@media screen and (max-width:549px) {	
+.section-2-gt-new .section-bg.bg-loaded {
+    background-image: url(../../uploads/2023/05/trang-chu-new-mobile-02.webp)!important;
+}
+.section-3-gt-new .image-box-1 .box-text {
+    position: absolute;
+    bottom: -25px!important;
+    padding: 0 20px!important;
+}	
+.section-4-gt-new .row-col-3-gt-new {
+    margin-top: 30px!important; 
+}	
+.section-4-gt-new .image-box-2 .box-text {
+    position: absolute;
+    bottom: 5px!important;
+}	
+/** block video trang chủ - mobile**/
+  .block-mobile-video {
+    padding: 12px;
+    width: 350px;
+  }
+    .block-mobile {
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-x: scroll;
+    width: 371px;
+    height: 340px;	
+  }
+  .block-mobile-video	.block-video-text {
+      width: 272px;
+    }	
+	.section-6-gt-new h3,.block-video-text {
+		font-size:18px!important;
+	}
+span.main-text {
+    font-size: 35px;
+	    line-height: 25px!important;
+}	
+ span.sub-text {
+    font-size: 24px;
+	 line-height: 25px!important;
+}	
+.page-id-7602 .section-tt .section-bg.bg-loaded {
+    background-image: url(../../uploads/2023/05/trang-chu-new-mobile-14.webp)!important;
+}	
+	
+}
+/********* END Mobile **********/
+/************ Tablet ************/
+@media screen and (min-device-width: 768px) and (max-device-width:1024px) { 
+
+ }
+/********* END Tablet **********/
+/*** END  trang chủ new **/
+
+
+.section-4-gb-new .button span {
+	font-size: 16px!important;
+}
+.section-3-gb-new .text-box-3 {
+	margin-top: 40px;
+}
+ /**Popup chuyên mục dịch vụ**/
+  .page-id-4788 .lightbox-content .bg-fill {
+  background-image: url(../../uploads/2023/04/popup-triet-long.webp)!important;
+  }
+.page-id-8662 .lightbox-content .bg-fill {
+  background-image: url(../../uploads/2023/05/POPUP-THAY-MAY-DOI-VAN-scaled.webp)!important;
+  }
+.page-id-8662 .lightbox-content .text-box {
+	top: 45%;
+}
+.page-id-4788 .lightbox-by-id .text-box .text-box-content  {
+	    transform: translateY(200px);
+}
+.section-3-gb-new .text-1-box .text-box-content,.section-3-gb-new .text-4-box .text-box-content,.section-3-gb-new .text-2-box .text-box-content,.section-3-gb-new .text-3-box .text-box-content  {
+	position:relative;
+	width:100%;
+}
+.section-3-gb-new .text-1-box .text-box-content .img.has-hover,.section-3-gb-new .text-4-box .text-box-content .img.has-hover,.section-3-gb-new .text-2-box .text-box-content .img.has-hover,.section-3-gb-new .text-3-box .text-box-content .img.has-hover{
+	height: auto;
+    margin: 0 auto;
+    overflow: hidden;
+    position: relative;
+}
+.section-3-gb-new .text-1-box .text-box-content .text,.section-3-gb-new .text-2-box .text-box-content .text,.section-3-gb-new .text-3-box .text-box-content .text {
+	position: absolute;
+    bottom: 80px;
+    padding: 0 50px;
+}
+.section-3-gb-new .text-4-box .text-box-content .text {
+	position: absolute;
+    bottom: 45px;
+    padding: 0 50px;
+}
+@media only screen and (max-width: 48em) {
+/*************** ADD MOBILE ONLY CSS HERE  ***************/
+
+
+}
